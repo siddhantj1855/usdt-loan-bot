@@ -1,3 +1,6 @@
+from keep_alive import keep_alive
+keep_alive()
+
 import asyncio
 import os
 from aiogram import Bot, Dispatcher, F, types
